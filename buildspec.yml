@@ -8,6 +8,6 @@ artifacts:
   files:
     - index.html
     - favicon.ico
-    - MattPhillipy-Resume.pdf
+    - MattPhillipy-resume.pdf
     - styles/main.css
     - images/*
