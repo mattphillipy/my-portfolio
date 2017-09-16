@@ -28,7 +28,7 @@ describe("ExampleWork component", () =>  {
     expect(component.type()).toEqual('section');
   });
 
-  it("Should contan as many children as there are work examples", () => {
+  it("Should contian as many children as there are work examples", () => {
     expect(component.find("ExampleWorkBubble").length).toEqual(myWork.length);
   });
 
@@ -44,6 +44,6 @@ describe("ExampleWorkBubble component", () => {
   });
 
   it("Should have the image src set correctly", () => {
-    expect(images.node.props.src).toEqual(myWork[0].image.src);
+    expect(images.node.props.src).toEqual(myWork[1].image.src);
   });
 });
