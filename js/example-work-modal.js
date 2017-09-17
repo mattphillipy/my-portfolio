@@ -8,7 +8,7 @@ class ExampleWorkModal extends React.Component {
 
     return (
       <div className={"background--skyBlue " + modalClass}>
-        <span className="color--cloud modal__closeButton">
+        <span className="color--cloud modal__closeButton"
           onClick={this.props.closeModal}>
           <i className="fa fa-window-close-o"></i>
         </span>
